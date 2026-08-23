@@ -4,7 +4,7 @@ import { test, expect } from '@playwright/test'
 import path from 'path';
 
 
-import {readExcelFile} from '../../src/utils/ExcelHelper'
+import {readExcelFile} from '../../src/utils/excel/ExcelHelper'
 
 const filePath = path.join(__dirname,'../../test-data/qa/TestData.xlsx')
 

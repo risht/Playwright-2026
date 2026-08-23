@@ -1,8 +1,8 @@
 // Import playwright module
 import { test, expect } from '@playwright/test'
-import { HomePage } from '../../src/utils/HomePage';
-import { ResultPage } from '../../src/utils/ResultPage';
-import { PlaylistPage } from '../../src/utils/PlaylistPage';
+import { HomePage } from '../../src/utils/pages/HomePage';
+import { ResultPage } from '../../src/utils/pages/ResultPage';
+import { PlaylistPage } from '../../src/utils/pages/PlaylistPage';
 
 //Write a test
 
