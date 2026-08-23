@@ -1,0 +1,4 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","13636","Test3","Google Chrome","2026-08-22","passed","2026-08-22","Regression Test","Chapter5\04_TestReports_Test.spec.ts","",""
+"","11445","Test2","Google Chrome","2026-08-22","failed","2026-08-22","Regression Test","Chapter5\04_TestReports_Test.spec.ts","",""
+"","12854","Test1","Google Chrome","2026-08-22","passed","2026-08-22","Smoke Test","Chapter5\04_TestReports_Test.spec.ts","",""

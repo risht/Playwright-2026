@@ -1,0 +1,1455 @@
+{
+  "config": {
+    "argv": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "C:\\Users\\RISHABH GROVER\\Desktop\\Playwright 2026\\node_modules\\@playwright\\test\\cli.js",
+      "test",
+      "--list"
+    ],
+    "configFile": "C:\\Users\\RISHABH GROVER\\Desktop\\Playwright 2026\\playwright.config.ts",
+    "rootDir": "C:/Users/RISHABH GROVER/Desktop/Playwright 2026/tests",
+    "failOnFlakyTests": false,
+    "forbidOnly": false,
+    "fullyParallel": true,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 60000,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {},
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "C:/Users/RISHABH GROVER/Desktop/Playwright 2026/test-results",
+        "repeatEach": 1,
+        "retries": 2,
+        "metadata": {},
+        "id": "Google Chrome",
+        "name": "Google Chrome",
+        "testDir": "C:/Users/RISHABH GROVER/Desktop/Playwright 2026/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "html",
+        null
+      ],
+      [
+        "json",
+        {
+          "outputFile": "test-results.json"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "missing",
+    "updateSourceMethod": "patch",
+    "version": "1.62.1",
+    "workers": 8,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "Chapter06\\01_ReadEnvFile_Test.spec.ts",
+      "file": "Chapter06/01_ReadEnvFile_Test.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Read ENV file config in playwright",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Google Chrome",
+              "projectName": "Google Chrome",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "46007503c4d58730b092-5dcf13003405d4827ae6",
+          "file": "Chapter06/01_ReadEnvFile_Test.spec.ts",
+          "line": 6,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "Chapter06\\02_DataDrivenTesting.spec.ts",
+      "file": "Chapter06/02_DataDrivenTesting.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Data Driven Testing using JSON file in playwright : tech with jatin",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Google Chrome",
+              "projectName": "Google Chrome",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "c381d6c53b83bebfcc53-f48f7cace51587d6f0ab",
+          "file": "Chapter06/02_DataDrivenTesting.spec.ts",
+          "line": 34,
+          "column": 8
+        },
+        {
+          "title": "Data Driven Testing using JSON file in playwright : lallantop",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Google Chrome",
+              "projectName": "Google Chrome",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "c381d6c53b83bebfcc53-89940f83d47eba23e8b6",
+          "file": "Chapter06/02_DataDrivenTesting.spec.ts",
+          "line": 34,
+          "column": 8
+        }
+      ]
+    },
+    {
+      "title": "Chapter06\\03_DataDrivenTestingusingCSV.spec.ts",
+      "file": "Chapter06/03_DataDrivenTestingusingCSV.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Data Driven Testing using CSV file in playwright : Trending diary podcast",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Google Chrome",
+              "projectName": "Google Chrome",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "ad91f8d9156927263c26-7dac5a96c34180962bf2",
+          "file": "Chapter06/03_DataDrivenTestingusingCSV.spec.ts",
+          "line": 31,
+          "column": 9
+        },
+        {
+          "title": "Data Driven Testing using CSV file in playwright : trending diary podcast",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Google Chrome",
+              "projectName": "Google Chrome",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "ad91f8d9156927263c26-31a1a6f01225104e68c2",
+          "file": "Chapter06/03_DataDrivenTestingusingCSV.spec.ts",
+          "line": 31,
+          "column": 9
+        }
+      ]
+    },
+    {
+      "title": "Chapter06\\04_DataDrivenTestingusingExcel.spec.ts",
+      "file": "Chapter06/04_DataDrivenTestingusingExcel.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Data Driven Testing using CSV file in playwright : Tech with Jatin",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Google Chrome",
+              "projectName": "Google Chrome",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "8c09be180ba78d9f159b-6445644f11ca83c3554a",
+          "file": "Chapter06/04_DataDrivenTestingusingExcel.spec.ts",
+          "line": 17,
+          "column": 9
+        },
+        {
+          "title": "Data Driven Testing using CSV file in playwright : tech with jatin",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Google Chrome",
+              "projectName": "Google Chrome",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "8c09be180ba78d9f159b-bc1b58532fb90f7cce2a",
+          "file": "Chapter06/04_DataDrivenTestingusingExcel.spec.ts",
+          "line": 17,
+          "column": 9
+        }
+      ]
+    },
+    {
+      "title": "Chapter1\\01_Record_github.spec.ts",
+      "file": "Chapter1/01_Record_github.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "test",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Google Chrome",
+              "projectName": "Google Chrome",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "fca92ef807fa779a469c-47c87bc51f2bfc2fdb4c",
+          "file": "Chapter1/01_Record_github.spec.ts",
+          "line": 3,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "Chapter1\\02_FirstTestExample.spec.ts",
+      "file": "Chapter1/02_FirstTestExample.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "My first test example",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Google Chrome",
+              "projectName": "Google Chrome",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "b7d44034d42243efeb6e-ca16a380cfdebdc3d42f",
+          "file": "Chapter1/02_FirstTestExample.spec.ts",
+          "line": 6,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "Chapter1\\03_RecordAtCursor_Test.spec.ts",
+      "file": "Chapter1/03_RecordAtCursor_Test.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Record at cursor test",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Google Chrome",
+              "projectName": "Google Chrome",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "1305ad524e5336f776fe-959bcd8634579b2afb9f",
+          "file": "Chapter1/03_RecordAtCursor_Test.spec.ts",
+          "line": 6,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "Chapter1\\04_Codegen_test.spec.ts",
+      "file": "Chapter1/04_Codegen_test.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Codegen test case",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Google Chrome",
+              "projectName": "Google Chrome",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "3b0eeed64c2acb09550e-e2620377d3827efdf438",
+          "file": "Chapter1/04_Codegen_test.spec.ts",
+          "line": 3,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "Chapter2\\01_Screenshots_Test.spec.ts",
+      "file": "Chapter2/01_Screenshots_Test.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Capture screenshots in playwright",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Google Chrome",
+              "projectName": "Google Chrome",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "777358c0374099f394ca-be3566d7bfb0b426b2fa",
+          "file": "Chapter2/01_Screenshots_Test.spec.ts",
+          "line": 6,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "Chapter2\\02_Locators_Test.spec.ts",
+      "file": "Chapter2/02_Locators_Test.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Locators in Playwright",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Google Chrome",
+              "projectName": "Google Chrome",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "2a98dde8157397e24d1a-21d50874df63c61ec609",
+          "file": "Chapter2/02_Locators_Test.spec.ts",
+          "line": 6,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "Chapter3\\01_Hooks_Test.spec.ts",
+      "file": "Chapter3/01_Hooks_Test.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Test1",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Google Chrome",
+              "projectName": "Google Chrome",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "4e0f890765daed28d71d-55417b6e3f4c1bba9353",
+          "file": "Chapter3/01_Hooks_Test.spec.ts",
+          "line": 30,
+          "column": 5
+        },
+        {
+          "title": "Test2",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Google Chrome",
+              "projectName": "Google Chrome",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "4e0f890765daed28d71d-7941d8cb3d65e417fff0",
+          "file": "Chapter3/01_Hooks_Test.spec.ts",
+          "line": 52,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "Chapter3\\02_HandlingDropdown_Test.spec.ts",
+      "file": "Chapter3/02_HandlingDropdown_Test.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Handling Dropdown list",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Google Chrome",
+              "projectName": "Google Chrome",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "64f40b5840b32e27deef-541a1a652c5069b5e3ba",
+          "file": "Chapter3/02_HandlingDropdown_Test.spec.ts",
+          "line": 3,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "Chapter3\\03_IFrames_Test.spec.ts",
+      "file": "Chapter3/03_IFrames_Test.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Handling IFrames, Drag and Drop",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Google Chrome",
+              "projectName": "Google Chrome",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "09d6ad7a19de20f8ca76-e9a2f188313d96ecf301",
+          "file": "Chapter3/03_IFrames_Test.spec.ts",
+          "line": 6,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "Chapter3\\04_MouseActions_Test.spec.ts",
+      "file": "Chapter3/04_MouseActions_Test.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Mouse Actions",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Google Chrome",
+              "projectName": "Google Chrome",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "5dfc6e1bb942e5fca6be-2a285e26201ba0326086",
+          "file": "Chapter3/04_MouseActions_Test.spec.ts",
+          "line": 6,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "Chapter3\\05_KeyBoardActions_Test.spec.ts",
+      "file": "Chapter3/05_KeyBoardActions_Test.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "KeyBoard Actions",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Google Chrome",
+              "projectName": "Google Chrome",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "940548c5dedbb84b657f-82327f1eb177d8558cab",
+          "file": "Chapter3/05_KeyBoardActions_Test.spec.ts",
+          "line": 5,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "Chapter3\\06_DatePicker_Test.spec.ts",
+      "file": "Chapter3/06_DatePicker_Test.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "KeyBoard Actions",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Google Chrome",
+              "projectName": "Google Chrome",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "ee420070047ccb9a3d74-656ab7a497a1ab4c45d5",
+          "file": "Chapter3/06_DatePicker_Test.spec.ts",
+          "line": 5,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "Chapter3\\07_Assertions_Test.spec.ts",
+      "file": "Chapter3/07_Assertions_Test.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Assertions Test",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Google Chrome",
+              "projectName": "Google Chrome",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "bd0f0a8c34b421e9fdd4-9e4cfd701c262625b5ba",
+          "file": "Chapter3/07_Assertions_Test.spec.ts",
+          "line": 5,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "Chapter3\\08_SoftAssertions_Test.spec.ts",
+      "file": "Chapter3/08_SoftAssertions_Test.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Soft Assertions Test",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Google Chrome",
+              "projectName": "Google Chrome",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "9a9ba4517ffa518978d6-5aa055702ae64d6e4602",
+          "file": "Chapter3/08_SoftAssertions_Test.spec.ts",
+          "line": 5,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "Chapter4\\01_Annotations_Test.spec.ts",
+      "file": "Chapter4/01_Annotations_Test.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Test3",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Google Chrome",
+              "projectName": "Google Chrome",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "53400966f4307dd049d0-7409d0e4bb6fbfef7932",
+          "file": "Chapter4/01_Annotations_Test.spec.ts",
+          "line": 44,
+          "column": 6
+        }
+      ]
+    },
+    {
+      "title": "Chapter4\\02_Grouping_Test.spec.ts",
+      "file": "Chapter4/02_Grouping_Test.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Smoke Test",
+          "file": "Chapter4/02_Grouping_Test.spec.ts",
+          "line": 4,
+          "column": 6,
+          "specs": [
+            {
+              "title": "Test1",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Google Chrome",
+                  "projectName": "Google Chrome",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "84eb448c1e901113056c-80cff7e96affbebf8a79",
+              "file": "Chapter4/02_Grouping_Test.spec.ts",
+              "line": 6,
+              "column": 9
+            }
+          ]
+        },
+        {
+          "title": "Regression Test",
+          "file": "Chapter4/02_Grouping_Test.spec.ts",
+          "line": 28,
+          "column": 6,
+          "specs": [
+            {
+              "title": "Test2",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Google Chrome",
+                  "projectName": "Google Chrome",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "84eb448c1e901113056c-38d074b63bb83e539dea",
+              "file": "Chapter4/02_Grouping_Test.spec.ts",
+              "line": 30,
+              "column": 9
+            },
+            {
+              "title": "Test3",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Google Chrome",
+                  "projectName": "Google Chrome",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "84eb448c1e901113056c-f4814e0757b863d74f0f",
+              "file": "Chapter4/02_Grouping_Test.spec.ts",
+              "line": 49,
+              "column": 9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Chapter4\\03_Tags.spec.ts",
+      "file": "Chapter4/03_Tags.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "My first PLaywright Test 1",
+          "ok": true,
+          "tags": [
+            "Smoke Testing"
+          ],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Google Chrome",
+              "projectName": "Google Chrome",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "ad2f87c41c5ff5150630-d7d2ecb6b9fa48edd846",
+          "file": "Chapter4/03_Tags.spec.ts",
+          "line": 6,
+          "column": 5
+        },
+        {
+          "title": "My first Playwright Test 2",
+          "ok": true,
+          "tags": [
+            "Smoke Testing",
+            "Regression Testing"
+          ],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Google Chrome",
+              "projectName": "Google Chrome",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "ad2f87c41c5ff5150630-446a42a53474c7e952c1",
+          "file": "Chapter4/03_Tags.spec.ts",
+          "line": 25,
+          "column": 5
+        },
+        {
+          "title": "My first Playwright Test 3",
+          "ok": true,
+          "tags": [
+            "Regression Testing"
+          ],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Google Chrome",
+              "projectName": "Google Chrome",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "ad2f87c41c5ff5150630-ec58ef1e7ee3fcaca1ef",
+          "file": "Chapter4/03_Tags.spec.ts",
+          "line": 44,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "Chapter4\\04_Retry_Test.spec.ts",
+      "file": "Chapter4/04_Retry_Test.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "My first test example",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Google Chrome",
+              "projectName": "Google Chrome",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "da3282ab090cf115862f-145b9cd9a4e30541ab89",
+          "file": "Chapter4/04_Retry_Test.spec.ts",
+          "line": 6,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "Chapter4\\05_Parameterize_Test.spec.ts",
+      "file": "Chapter4/05_Parameterize_Test.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Parameterized Test for keyword: tech with jatin",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Google Chrome",
+              "projectName": "Google Chrome",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "98ceca755b78409b190b-7532b22e0b154b56db06",
+          "file": "Chapter4/05_Parameterize_Test.spec.ts",
+          "line": 10,
+          "column": 5
+        },
+        {
+          "title": "Parameterized Test for keyword: tech with jatin youtube",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Google Chrome",
+              "projectName": "Google Chrome",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "98ceca755b78409b190b-e3de69f9974dce409c17",
+          "file": "Chapter4/05_Parameterize_Test.spec.ts",
+          "line": 10,
+          "column": 5
+        },
+        {
+          "title": "Parameterized Test for keyword: Tech With Jatin latest video",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Google Chrome",
+              "projectName": "Google Chrome",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "98ceca755b78409b190b-baefa225ae840cc30f90",
+          "file": "Chapter4/05_Parameterize_Test.spec.ts",
+          "line": 10,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "Chapter4\\06_Visual_Testing.spec.ts",
+      "file": "Chapter4/06_Visual_Testing.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Visual Comparison with Playwright",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Google Chrome",
+              "projectName": "Google Chrome",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "b773771695e013dd1929-dc59dc72c46e23cf132e",
+          "file": "Chapter4/06_Visual_Testing.spec.ts",
+          "line": 5,
+          "column": 5
+        },
+        {
+          "title": "Element Visual Comparison with Playwright - Filled Login Field",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Google Chrome",
+              "projectName": "Google Chrome",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "b773771695e013dd1929-13a3175e564df540f35f",
+          "file": "Chapter4/06_Visual_Testing.spec.ts",
+          "line": 18,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "Chapter4\\07_Timeouts.spec.ts",
+      "file": "Chapter4/07_Timeouts.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Timeouts in playwright",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Google Chrome",
+              "projectName": "Google Chrome",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "b428162e318bbf85bbd2-933d6e74258230d74146",
+          "file": "Chapter4/07_Timeouts.spec.ts",
+          "line": 6,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "Chapter5\\01_BrowserContext_Test.spec.ts",
+      "file": "Chapter5/01_BrowserContext_Test.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Multiple Browser/Tabs in Playwright",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Google Chrome",
+              "projectName": "Google Chrome",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "bd3c4c3623e88a2bd892-605c45ad4266dcb86135",
+          "file": "Chapter5/01_BrowserContext_Test.spec.ts",
+          "line": 6,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "Chapter5\\02_ReRunFailed_Test.spec.ts",
+      "file": "Chapter5/02_ReRunFailed_Test.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Test 1",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Google Chrome",
+              "projectName": "Google Chrome",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "1d3aee8e97fccf57ec54-9f795a1bff0f36141e12",
+          "file": "Chapter5/02_ReRunFailed_Test.spec.ts",
+          "line": 6,
+          "column": 5
+        },
+        {
+          "title": "Test 2",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Google Chrome",
+              "projectName": "Google Chrome",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "1d3aee8e97fccf57ec54-f22ae4d5a233710f14ff",
+          "file": "Chapter5/02_ReRunFailed_Test.spec.ts",
+          "line": 25,
+          "column": 5
+        },
+        {
+          "title": "Test 3",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Google Chrome",
+              "projectName": "Google Chrome",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "1d3aee8e97fccf57ec54-4b1914733a20f9ac9939",
+          "file": "Chapter5/02_ReRunFailed_Test.spec.ts",
+          "line": 31,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "Chapter5\\03_AlertsPopups_Test.spec.ts",
+      "file": "Chapter5/03_AlertsPopups_Test.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Handling Alerts Popups ",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Google Chrome",
+              "projectName": "Google Chrome",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "6d8e11d310785db9a52b-cd611dfdd93881460483",
+          "file": "Chapter5/03_AlertsPopups_Test.spec.ts",
+          "line": 6,
+          "column": 5
+        },
+        {
+          "title": "Handling Popups in Playwright ",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Google Chrome",
+              "projectName": "Google Chrome",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "6d8e11d310785db9a52b-fe30e85336f53f878ca3",
+          "file": "Chapter5/03_AlertsPopups_Test.spec.ts",
+          "line": 28,
+          "column": 5
+        },
+        {
+          "title": "Handling Prompts in Playwright ",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Google Chrome",
+              "projectName": "Google Chrome",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "6d8e11d310785db9a52b-25c6424797a532eed217",
+          "file": "Chapter5/03_AlertsPopups_Test.spec.ts",
+          "line": 50,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "Chapter5\\04_TestReports_Test.spec.ts",
+      "file": "Chapter5/04_TestReports_Test.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Smoke Test",
+          "file": "Chapter5/04_TestReports_Test.spec.ts",
+          "line": 4,
+          "column": 6,
+          "specs": [
+            {
+              "title": "Test1",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Google Chrome",
+                  "projectName": "Google Chrome",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "e4e5ad2b1f76bba03154-6c09e08903e9871bf648",
+              "file": "Chapter5/04_TestReports_Test.spec.ts",
+              "line": 6,
+              "column": 9
+            }
+          ]
+        },
+        {
+          "title": "Regression Test",
+          "file": "Chapter5/04_TestReports_Test.spec.ts",
+          "line": 28,
+          "column": 6,
+          "specs": [
+            {
+              "title": "Test2",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Google Chrome",
+                  "projectName": "Google Chrome",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "e4e5ad2b1f76bba03154-9cb594580567746a7597",
+              "file": "Chapter5/04_TestReports_Test.spec.ts",
+              "line": 30,
+              "column": 9
+            },
+            {
+              "title": "Test3",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Google Chrome",
+                  "projectName": "Google Chrome",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "e4e5ad2b1f76bba03154-ed2086ab4b78687e631f",
+              "file": "Chapter5/04_TestReports_Test.spec.ts",
+              "line": 49,
+              "column": 9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Chapter5\\05_TextContent_GetAttribute_Test.spec.ts",
+      "file": "Chapter5/05_TextContent_GetAttribute_Test.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Get Text & Get Attribute",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Google Chrome",
+              "projectName": "Google Chrome",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "c6f580feedeb04fe0223-7f5233ac9c8ed18b5931",
+          "file": "Chapter5/05_TextContent_GetAttribute_Test.spec.ts",
+          "line": 4,
+          "column": 9
+        }
+      ]
+    },
+    {
+      "title": "Chapter5\\06_Iterating_Elements_Test.spec.ts",
+      "file": "Chapter5/06_Iterating_Elements_Test.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Iterating matching elements",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Google Chrome",
+              "projectName": "Google Chrome",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "a58846d879631b9bc843-662786e54b027ba1572a",
+          "file": "Chapter5/06_Iterating_Elements_Test.spec.ts",
+          "line": 5,
+          "column": 9
+        }
+      ]
+    },
+    {
+      "title": "Chapter5\\07_CheckBox_RadioButton_Test.spec.ts",
+      "file": "Chapter5/07_CheckBox_RadioButton_Test.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Check Box and Radio Button Test",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Google Chrome",
+              "projectName": "Google Chrome",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "e7c5c496579b66933274-2231c827e1dc2686f912",
+          "file": "Chapter5/07_CheckBox_RadioButton_Test.spec.ts",
+          "line": 6,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "Chapter7\\01_PageObjectModelTest.spec.ts",
+      "file": "Chapter7/01_PageObjectModelTest.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Page Object Model in Playwright",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Google Chrome",
+              "projectName": "Google Chrome",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "9c7ac25e3a2e03d9383d-a363397c2f7819e89c9c",
+          "file": "Chapter7/01_PageObjectModelTest.spec.ts",
+          "line": 9,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "example.spec.ts",
+      "file": "example.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "has title",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Google Chrome",
+              "projectName": "Google Chrome",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "a30a6eba6312f6b87ea5-bc92424375fd1f958e1b",
+          "file": "example.spec.ts",
+          "line": 3,
+          "column": 5
+        },
+        {
+          "title": "get started link",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Google Chrome",
+              "projectName": "Google Chrome",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "a30a6eba6312f6b87ea5-e942e948c9fa1f863d89",
+          "file": "example.spec.ts",
+          "line": 10,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "github.spec.ts",
+      "file": "github.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "test",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Google Chrome",
+              "projectName": "Google Chrome",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "2719059dc5d92439b2f4-6a0718b630811e520166",
+          "file": "github.spec.ts",
+          "line": 3,
+          "column": 5
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-08-23T06:27:28.427Z",
+    "duration": 453.19999999999993,
+    "expected": 0,
+    "skipped": 53,
+    "unexpected": 0,
+    "flaky": 0
+  }
+}
