@@ -8,7 +8,7 @@ import { PlaylistPage } from '../../src/utils/PlaylistPage';
 
 test('Page Object Model in Playwright', async ({ page }) => {
 
-    console.log("Test execution started")
+    console.log("Test Execution Started")
 
    //Create object of homepage
 
