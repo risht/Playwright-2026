@@ -41,7 +41,7 @@ import { test, expect } from '@playwright/test'
     
 // })
 
-test.only('Test3', async ({ page }) => {
+test('Test3', async ({ page }) => {
 
     // Go to Url
     await page.goto('https://www.youtube.com')

@@ -54,6 +54,9 @@ export default defineConfig({
     trace: 'on',
 
     actionTimeout: 10000,
+    //  launchOptions: {
+    //     args: ['--start-maximized']
+    //  }
   },
 
   /* Configure projects for major browsers */

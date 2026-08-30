@@ -1,8 +1,8 @@
 {
     "compilerOptions": {
       "target": "ESNext",              // Compile to the latest ECMAScript version
-      "module": "Node16",              // Module system for Node.js compatibility
-      "moduleResolution": "node16",      // Resolve modules like Node.js
+      "module": "NodeNext",              // Module system for Node.js compatibility
+      "moduleResolution": "NodeNext",      // Resolve modules like Node.js
       "strict": true,                  // Enable all strict type-checking options
       "esModuleInterop": true,         // Allows default imports for CommonJS modules
       "skipLibCheck": true,            // Skip type checking of declaration files for faster builds

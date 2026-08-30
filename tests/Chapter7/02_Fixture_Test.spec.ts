@@ -1,14 +1,15 @@
 // Import playwright module
-import { test, expect } from '@playwright/test'
+// import { test, expect } from '@playwright/test'
+import { test } from '../../src/utils/fixture/testFixture'
 import { HomePage } from '../../src/utils/HomePage';
 import { ResultPage } from '../../src/utils/ResultPage';
 import { PlaylistPage } from '../../src/utils/PlaylistPage';
 
 //Write a test
 
-test('Page Object Model in Playwright', async ({ page }) => {
+test('Implememnting Fixtures in Playwright', async ({ page }) => {
 
-    console.log("Test Execution Started")
+    console.log(`Test Execution Started...`)
 
    //Create object of homepage
 
@@ -31,9 +32,9 @@ test('Page Object Model in Playwright', async ({ page }) => {
 
     await playlistPage.validateOnPlaylist(
 
-    process.env.SEARCH_KEYWORDS!
-)
+    process.env.SEARCH_KEYWORDS!)
 
+    console.log(`Test Execution ended...`)
 })
 
 
